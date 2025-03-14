@@ -1,0 +1,37 @@
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE and editor settings
+.idea/
+.vscode/
+
+# Ignore log and debug files
+debug.log
+
+# Ignore media and generated files
+*.wav
+*.mp4
+*.jpg
+thumbnails/
+Demo/
+
+# Ignore text-based output files
+*.txt
+
+# Ignore Gradio files
+.gradio/
+
+# Ignore Deepgram and transcription outputs
+test_audio.wav
+audio_query.txt
+refined_search_query.txt
+search_query.txt
+top_youtube_options.txt
+video_to_be_transcribed.txt
